@@ -6,6 +6,7 @@ import (
 	"github.com/labstack/echo/v4/middleware"
 )
 
+//NewRouter will initialise routes and middlewares and return a new echo instance
 func (h Handler) NewRouter() *echo.Echo {
 	e := echo.New()
 

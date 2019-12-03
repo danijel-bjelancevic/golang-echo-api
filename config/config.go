@@ -13,6 +13,7 @@ type Config struct {
 	GrayLogUDPAddr string `envconfig:"GRAYLOG_UDP_ADDR" default:"graylog-udp:12202" required:"false"`
 }
 
+//Get will return all configs
 func Get() (*Config, error) {
 	c := &Config{}
 
