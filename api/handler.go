@@ -5,6 +5,7 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
+//Handler holds all dependencies and it's initialised in the main
 type Handler struct {
 	AppName string
 	Logger  logrus.FieldLogger
